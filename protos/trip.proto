@@ -1,0 +1,13 @@
+option java_package = "com.king.gis.protos";
+
+// 位置实体
+message Point {
+    required double x = 1; //经度
+    required double y = 2;//纬度
+    required int32 index = 3;//内容 
+}
+
+// 行程
+message TripModel {
+    repeated Point points = 1; //位置信息集合
+}

@@ -125,6 +125,11 @@
 			<scope>compile</scope>
 		</dependency>
 		<!-- -->
+		<dependency>
+			<groupId>com.google.protobuf</groupId>
+			<artifactId>protobuf-java</artifactId>
+			<version>2.3.0</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<finalName>maven_gis</finalName>
